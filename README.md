@@ -19,8 +19,8 @@ Identifying services on open ports and their vulnerabilities
 nmap -sS 192.168.138.0/24 -o sync_scan.txt
 
 # Script scan and service version detection: 
-nmap -sS -sV -sC 192.168.138.128 -o 192.168.138.128.txt
-nmap -sS -sV -sC 192.168.138.130 -o 192.168.138.130.txt
+## nmap -sS -sV -sC 192.168.138.128 -o 192.168.138.128.txt
+## nmap -sS -sV -sC 192.168.138.130 -o 192.168.138.130.txt
 ## All script scan file are present in .txt files
 
 **Open Ports and services**
